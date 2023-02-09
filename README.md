@@ -57,11 +57,18 @@ $ git clone https://github.com/parthdave17/pokedex-mono-repo
 $ npm run bootstrap
 ```
 
-#### Running the app
+#### Running the app in development
 
 ```bash
 # development
 $ npm run dev:pokedex
+
+```
+#### Running the app for production
+
+```bash
+# building
+$ npm run build:pokedex
 
 # production mode
 $ npm run prod:pokedex
