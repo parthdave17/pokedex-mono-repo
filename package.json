@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "npm install && lerna bootstrap",
+    "bootstrap": "npm install && lerna bootstrap && lerna run --scope @pokedex/components --stream rollup && lerna run --scope @pokedex/utils --stream rollup",
     "dev:pokedex": "lerna run --scope pokedex --stream dev",
     "build:pokedex": "lerna run --parallel build",
     "test:pokedex": "lerna run --scope pokedex --stream test",
@@ -15,8 +15,8 @@
   },
   "devDependencies": {
     "@types/node": "^14.0.23",
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
+    "@types/react": "^16.6.0",
+    "@types/react-dom": "^16.6.0",
     "jest-environment-jsdom": "^29.4.2",
     "lerna": "^3.22.1",
     "lerna-dockerize": "^1.0.6",
@@ -29,8 +29,8 @@
     "axios": "^1.3.2",
     "next": "^9.4.4",
     "next-transpile-modules": "^3.3.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   },
   "resolutions": {
     "**/@types/react": "^18.0.10",

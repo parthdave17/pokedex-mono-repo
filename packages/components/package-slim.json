@@ -1,5 +1,5 @@
 {
-    "name": "@dg98/components",
+    "name": "@pokedex/components",
     "version": "1.0.0",
     "dependencies": {
         "rollup-plugin-postcss": "^4.0.2"

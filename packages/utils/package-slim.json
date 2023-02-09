@@ -1,5 +1,5 @@
 {
-    "name": "@dg98/utils",
+    "name": "@pokedex/utils",
     "version": "1.0.0",
     "devDependencies": {
         "@rollup/plugin-commonjs": "21.0.1",
