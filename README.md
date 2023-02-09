@@ -64,6 +64,7 @@ $ npm run bootstrap
 $ npm run dev:pokedex
 
 ```
+
 #### Running the app for production
 
 ```bash
@@ -72,6 +73,16 @@ $ npm run build:pokedex
 
 # production mode
 $ npm run prod:pokedex
+```
+
+#### Running the app using docker
+
+```bash
+# building image from base folder
+$ docker build .
+
+# runnnig the image
+$ docker run -d -p exposedPort:containerPort <imageId>
 ```
 
 #### Test
