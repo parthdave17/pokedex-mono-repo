@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "npm install; lerna bootstrap;",
+    "bootstrap": "npm install && lerna bootstrap",
     "dev:pokedex": "lerna run --scope pokedex --stream dev",
     "build:pokedex": "lerna run --parallel build",
     "test:pokedex": "lerna run --scope pokedex --stream test",
